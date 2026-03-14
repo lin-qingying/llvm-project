@@ -44,24 +44,38 @@ jobs:
           msystem: MINGW64
           update: true
           install: >-
+            mingw-w64-x86_64-gcc
             mingw-w64-x86_64-cmake
             mingw-w64-x86_64-ninja
             mingw-w64-x86_64-python
             mingw-w64-x86_64-ccache
 
-      # ── 4. 降级到 GCC 13（Windows，兼容 LLVM 15）────────────
-      - name: Downgrade to GCC 13 (Windows)
+      # ── 4. 打补丁：修复 SmallVector 兼容 GCC 14/15 ──────────
+      # LLVM 15 的 SmallVector 使用了 GCC 15 中移除的模板继承语法
+      # 此补丁将 using SuperClass::xxx 改为直接 using 基类成员
+      - name: Patch SmallVector for GCC 14/15 compatibility (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
         run: |
-          curl -LO "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-13.3.0-2-any.pkg.tar.zst"
-          curl -LO "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-libs-13.3.0-2-any.pkg.tar.zst"
-          curl -LO "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libgcc-13.3.0-2-any.pkg.tar.zst"
-          pacman -U --noconfirm \
-            mingw-w64-x86_64-gcc-13.3.0-2-any.pkg.tar.zst \
-            mingw-w64-x86_64-gcc-libs-13.3.0-2-any.pkg.tar.zst \
-            mingw-w64-x86_64-libgcc-13.3.0-2-any.pkg.tar.zst
-          echo "IgnorePkg = mingw-w64-x86_64-gcc mingw-w64-x86_64-gcc-libs mingw-w64-x86_64-libgcc" >> /etc/pacman.conf
+          SMALL_VECTOR="llvm/include/llvm/ADT/SmallVector.h"
+
+          # 检查 GCC 版本
+          GCC_VER=$(gcc -dumpversion | cut -d. -f1)
+          echo "GCC major version: $GCC_VER"
+
+          if [ "$GCC_VER" -ge 14 ]; then
+            echo "Applying SmallVector patch for GCC $GCC_VER..."
+
+            # 在 SmallVectorTemplateBase 中补充缺失的成员声明
+            # 将 set_size 从 protected 改为 public 可见，或在子类中重新声明
+            sed -i 's/using SuperClass::set_size;/\/\/ using SuperClass::set_size; \/\/ patched for GCC 14+\n  using SmallVectorTemplateCommon<T>::set_size;/' \
+              "$SMALL_VECTOR"
+
+            echo "Patch applied."
+          else
+            echo "GCC $GCC_VER, no patch needed."
+          fi
+
           gcc --version
 
       # ── 5. 缓存：ccache（Linux）──────────────────────────────
@@ -114,7 +128,7 @@ jobs:
             -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
             -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
 
-      # ── 9. CMake 配置（Windows）──────────────────────────────
+      # ── 9. CMake 配置（Windows/MinGW）────────────────────────
       - name: Configure CMake (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
