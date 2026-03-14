@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Serialization/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangSerialization",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclangSerialization.a"
+			],
+			"targetId" : "clangSerialization::@0c0ec4a36076fe2a80b8",
+			"targetIndex" : 300,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Serialization",
+		"source" : "D:/code/llvm-project/clang/lib/Serialization"
+	}
+}

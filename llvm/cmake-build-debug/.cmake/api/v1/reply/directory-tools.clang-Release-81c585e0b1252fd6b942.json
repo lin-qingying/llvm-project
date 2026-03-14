@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 452,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 461,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 481,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "clang-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"D:/code/llvm-project/clang/include/clang",
+				"D:/code/llvm-project/clang/include/clang-c"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "clang-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/tools/clang/include/clang"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "bash-autocomplete",
+			"destination" : "share/clang",
+			"paths" : 
+			[
+				"D:/code/llvm-project/clang/utils/bash-autocomplete.sh"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang",
+		"source" : "D:/code/llvm-project/clang"
+	}
+}

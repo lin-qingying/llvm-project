@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Parse/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangParse",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclangParse.a"
+			],
+			"targetId" : "clangParse::@3da6354c36f009bcf2b2",
+			"targetIndex" : 296,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Parse",
+		"source" : "D:/code/llvm-project/clang/lib/Parse"
+	}
+}

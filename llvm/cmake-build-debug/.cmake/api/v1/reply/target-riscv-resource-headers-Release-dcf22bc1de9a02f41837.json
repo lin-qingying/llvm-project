@@ -1,0 +1,46 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_header_target"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/lib/Headers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 1
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Misc"
+	},
+	"id" : "riscv-resource-headers::@85dbf821aae81a241c4c",
+	"name" : "riscv-resource-headers",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Headers",
+		"source" : "D:/code/llvm-project/clang/lib/Headers"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

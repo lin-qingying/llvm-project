@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/tools/clang-nvlink-wrapper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/clang-nvlink-wrapper.exe"
+			],
+			"targetId" : "clang-nvlink-wrapper::@c2604a2e4445d8779d2f",
+			"targetIndex" : 259,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/tools/clang-nvlink-wrapper",
+		"source" : "D:/code/llvm-project/clang/tools/clang-nvlink-wrapper"
+	}
+}

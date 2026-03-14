@@ -1,0 +1,534 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/llvm-ml.exe"
+		},
+		{
+			"path" : "bin/llvm-ml.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_llvm_executable",
+			"llvm_add_tool",
+			"add_llvm_tool",
+			"install",
+			"target_link_libraries",
+			"explicit_llvm_config",
+			"llvm_config",
+			"LLVMBuildResolveComponentsLink",
+			"llvm_add_library",
+			"add_llvm_library",
+			"add_llvm_component_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"tools/llvm-ml/CMakeLists.txt",
+			"cmake/modules/LLVM-Config.cmake",
+			"cmake/modules/LLVM-Build.cmake",
+			"lib/CMakeLists.txt",
+			"lib/Support/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1321,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1296,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 932,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1301,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 979,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 107,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 101,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 101,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 121,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 793,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 682,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 101,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 981,
+				"parent" : 3
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 954,
+				"parent" : 3
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 20
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 16,
+				"file" : 7,
+				"line" : 817,
+				"parent" : 22
+			},
+			{
+				"file" : 6,
+				"parent" : 23
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 362,
+				"parent" : 24
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 946,
+				"parent" : 24
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 947,
+				"parent" : 24
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 948,
+				"parent" : 24
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 1065,
+				"parent" : 22
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections  -O2 -DNDEBUG -std=c++14 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 21,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/llvm-ml"
+				},
+				{
+					"path" : "D:/code/llvm-project/llvm/tools/llvm-ml"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "D:/code/llvm-project/llvm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBinaryFormat::@c9b0ef5de2116d71f170"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDemangle::@3c7ef39cff93a35ba752"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMSupport::@928d1708d80fe1f55e59"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMC::@9597ad869864cf27958c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMCParser::@d8f04122018374db0703"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMCDisassembler::@c2d95e4d4d6a2d139337"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMOption::@03597dd37d3dc3b95065"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoCodeView::@841a9fddc0a02ad6b960"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMX86AsmParser::@ca1a8f49c236f98dc8f8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMX86Disassembler::@5e212d7184d4492787fb"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMX86Desc::@edf9a8e523662514edc3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMX86Info::@a8de612b6f281ab57bc8"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "MLTableGen::@10303481ed29d736eef1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tools"
+	},
+	"id" : "llvm-ml::@10303481ed29d736eef1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/LLVM"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections  -O2 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--stack,16777216",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMX86AsmParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMX86Desc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMX86Disassembler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMX86Info.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMMCParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMOption.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib\\libLLVMMCDisassembler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib\\libLLVMBinaryFormat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib\\libLLVMDebugInfoCodeView.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lpsapi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lole32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-luuid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "lib\\libLLVMDemangle.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "llvm-ml",
+	"nameOnDisk" : "llvm-ml.exe",
+	"paths" : 
+	{
+		"build" : "tools/llvm-ml",
+		"source" : "tools/llvm-ml"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "TableGen descriptions",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "tools/llvm-ml/llvm-ml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "tools/llvm-ml/Disassembler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "tools/llvm-ml/Opts.td",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "tools/llvm-ml/Disassembler.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_tool"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/tools/clang-offload-wrapper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 167,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clang-offload-wrapper",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/clang-offload-wrapper.exe"
+			],
+			"targetId" : "clang-offload-wrapper::@28058d0cd57f9cd73dd7",
+			"targetIndex" : 263,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/tools/clang-offload-wrapper",
+		"source" : "D:/code/llvm-project/clang/tools/clang-offload-wrapper"
+	}
+}

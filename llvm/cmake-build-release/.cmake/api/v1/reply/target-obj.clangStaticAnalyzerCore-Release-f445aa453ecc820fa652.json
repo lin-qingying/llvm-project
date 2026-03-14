@@ -1,0 +1,767 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./APSIntType.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./AnalysisManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./AnalyzerOptions.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./BasicValueFactory.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./BlockCounter.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./BugReporter.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./BugReporterVisitors.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CallDescription.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CallEvent.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./Checker.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CheckerContext.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CheckerHelpers.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CheckerManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CheckerRegistryData.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CommonBugCategories.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ConstraintManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./CoreEngine.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./DynamicExtent.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./DynamicType.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./Environment.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ExplodedGraph.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ExprEngine.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ExprEngineC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ExprEngineCXX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ExprEngineCallAndReturn.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ExprEngineObjC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./FunctionSummary.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./HTMLDiagnostics.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./LoopUnrolling.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./LoopWidening.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./MemRegion.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./PlistDiagnostics.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./ProgramState.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./RangeConstraintManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./RangedConstraintManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./RegionStore.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SarifDiagnostics.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SimpleConstraintManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SimpleSValBuilder.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SMTConstraintManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./Store.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SValBuilder.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SVals.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./SymbolManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./TextDiagnostics.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/StaticAnalyzer/Core/CMakeFiles/obj.clangStaticAnalyzerCore.dir/./WorkList.cpp.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 487,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 693,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 490,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 817,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 362,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 491,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 946,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 947,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1065,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing  -O2 -DNDEBUG -std=c++14 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/lib/StaticAnalyzer/Core"
+				},
+				{
+					"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/clang/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "omp_gen::@c933b1d83b2255dffcd1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@a698e65c49ebca5ab3a1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.clangStaticAnalyzerCore::@93f8f2dc8706f9f7d1d9",
+	"name" : "obj.clangStaticAnalyzerCore",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/StaticAnalyzer/Core",
+		"source" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				46
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/APSIntType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/AnalysisManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/AnalyzerOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/BasicValueFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/BlockCounter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/BugReporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/BugReporterVisitors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CallDescription.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CallEvent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/Checker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CheckerContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CheckerHelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CheckerManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CheckerRegistryData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CommonBugCategories.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ConstraintManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CoreEngine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/DynamicExtent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/DynamicType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/Environment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ExplodedGraph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ExprEngine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ExprEngineC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ExprEngineCXX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ExprEngineCallAndReturn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ExprEngineObjC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/FunctionSummary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/HTMLDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/LoopUnrolling.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/LoopWidening.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/MemRegion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/PlistDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/ProgramState.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/RangeConstraintManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/RangedConstraintManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/RegionStore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SarifDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SimpleConstraintManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SimpleSValBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SMTConstraintManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/Store.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SValBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SVals.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/SymbolManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/TextDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/WorkList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/PrettyStackTraceLocationContext.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

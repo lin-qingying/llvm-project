@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Tooling/DumpTool",
+		"source" : "D:/code/llvm-project/clang/lib/Tooling/DumpTool"
+	}
+}

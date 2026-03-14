@@ -1,0 +1,454 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libclangFrontendTool.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/FrontendTool/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 558,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 119,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 682,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 689,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 817,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 362,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 491,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 946,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 947,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1065,
+				"parent" : 7
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "LLVMIRReader::@ac4e3735190afd111ee4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMCodeGen::@47ff7fadf09d83e77685"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMBinaryFormat::@c9b0ef5de2116d71f170"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMBitReader::@b3ae57fb53631d19cf66"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMBitWriter::@70aee8a8db3c4815feff"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMBitstreamReader::@95731b79b16df93229d4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMExtensions::@fb1124c28ab25ad89fd1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMFrontendOpenMP::@2ab712eb00cebf70ac89"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMTransformUtils::@485472be269d97170281"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMInstrumentation::@f6d078940980c0702113"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMInstCombine::@c211d204041b3cce8885"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMAggressiveInstCombine::@1604ec25a19d03fb8401"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMScalarOpts::@b500fa7488aca5bdc0a7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMipo::@5d30e4426957e039fa79"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMVectorize::@52cafa3d09b69dbbd840"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMObjCARCOpts::@86b2f715aa46a88a7897"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMCoroutines::@9bd322b42193a09d6123"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMCore::@fbfd63cd06ffdf52319f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMDemangle::@3c7ef39cff93a35ba752"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMSupport::@928d1708d80fe1f55e59"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMLinker::@82b49a9339256152fd37"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMAnalysis::@a8ea8fd451b56fad3c5d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMLTO::@12256144c3740ab3a240"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMMC::@9597ad869864cf27958c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMMCParser::@d8f04122018374db0703"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMObject::@642aa1c006d9cde9317d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMOption::@03597dd37d3dc3b95065"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMRemarks::@6a63c042d04b6deafc56"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMDebugInfoDWARF::@d4081b04ea46e64ff5bd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMTarget::@1f06d56b7c3d624f3727"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMDebugInfoMSF::@bb9873363af6a4074de7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMDebugInfoCodeView::@841a9fddc0a02ad6b960"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMDebugInfoPDB::@7ca5f69457f64a38426e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMSymbolize::@42ca82b480049393bbf7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMAsmParser::@bfe21dd4a58a6f8872f3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMProfileData::@b9974079c57e2c563b37"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMCoverage::@dd6fc37ac91636598d9f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMPasses::@e8b1c871ec859dffef08"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMTextAPI::@e4706a94ab4f7fb58b7f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LLVMWindowsDriver::@67e0b031e165bff462f4"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clang-tablegen-targets::@a698e65c49ebca5ab3a1"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ClangDriverOptions::@c5f28d7a065278720772"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangBasic::@af584f149e490d75c24c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangLex::@d3c561e3b3e9c375248d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangParse::@3da6354c36f009bcf2b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangAST::@572b5cd4cfc688839176"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangASTMatchers::@f183ba56cffa3f9f5544"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangCrossTU::@f99b9500197062e1d7bd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangSema::@b78f6d003921181e7054"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangCodeGen::@b53206f97688f9d71411"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangAnalysis::@efd5146c6323474be9b8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangEdit::@ad90dd66c332f8450f8c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangExtractAPI::@d0ca77386c5b9d6480a6"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangRewrite::@ac59a15518014014e11a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangARCMigrate::@3ad637393ca8c7f17f05"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangDriver::@7a0ba538446439a30277"
+		},
+		{
+			"id" : "obj.clangFrontendTool::@d60598cde9fa23229ffa"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangToolingCore::@43e67e3a7fd26cb84d1c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangToolingInclusions::@33ab47f2ee526d965265"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangSerialization::@0c0ec4a36076fe2a80b8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangFrontend::@ae9a5840ad140bf270f8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangRewriteFrontend::@f1f5acd192ac9aacbb9f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangIndex::@38da7e434fb6ca00f24e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangStaticAnalyzerCore::@93f8f2dc8706f9f7d1d9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangStaticAnalyzerCheckers::@68e682e1e37000bcd616"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangStaticAnalyzerFrontend::@6e5c29f2d06c5840ca89"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangFormat::@413a1e9ee6c94838d69a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clangSupport::@639519e837bd478d75a2"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Clang libraries"
+	},
+	"id" : "clangFrontendTool::@d60598cde9fa23229ffa",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/LLVM"
+		}
+	},
+	"name" : "clangFrontendTool",
+	"nameOnDisk" : "libclangFrontendTool.a",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/FrontendTool",
+		"source" : "D:/code/llvm-project/clang/lib/FrontendTool"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/tools/clang/lib/FrontendTool/CMakeFiles/obj.clangFrontendTool.dir/ExecuteCompilerInvocation.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Tooling/DependencyScanning/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangDependencyScanning",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclangDependencyScanning.a"
+			],
+			"targetId" : "clangDependencyScanning::@c6c9b4793922e41ee65a",
+			"targetIndex" : 281,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Tooling/DependencyScanning",
+		"source" : "D:/code/llvm-project/clang/lib/Tooling/DependencyScanning"
+	}
+}

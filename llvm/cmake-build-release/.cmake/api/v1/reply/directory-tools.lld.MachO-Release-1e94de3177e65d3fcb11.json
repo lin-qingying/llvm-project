@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_lld_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/lld/cmake/modules/AddLLD.cmake",
+			"D:/code/llvm-project/lld/MachO/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "lldMachO",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/liblldMachO.a"
+			],
+			"targetId" : "lldMachO::@ec2ffeb96b31f79c7322",
+			"targetIndex" : 842,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/lld/MachO",
+		"source" : "D:/code/llvm-project/lld/MachO"
+	}
+}

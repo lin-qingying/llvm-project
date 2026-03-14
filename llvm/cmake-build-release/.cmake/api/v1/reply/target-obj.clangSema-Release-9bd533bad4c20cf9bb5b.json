@@ -1,0 +1,878 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./AnalysisBasedWarnings.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./CodeCompleteConsumer.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./DeclSpec.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./DelayedDiagnostic.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./HLSLExternalSemaSource.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./IdentifierResolver.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./JumpDiagnostics.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./MultiplexExternalSemaSource.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./ParsedAttr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./Scope.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./ScopeInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./Sema.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaAccess.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaAttr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaAvailability.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaCXXScopeSpec.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaCast.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaChecking.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaCodeComplete.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaConcept.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaConsumer.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaCoroutine.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaCUDA.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaDecl.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaDeclAttr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaDeclCXX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaDeclObjC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaExceptionSpec.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaExpr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaExprCXX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaExprMember.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaExprObjC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaFixItUtils.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaInit.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaLambda.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaLookup.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaModule.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaObjCProperty.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaOpenMP.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaOverload.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaPseudoObject.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaRISCVVectorLookup.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaStmt.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaStmtAsm.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaStmtAttr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaSYCL.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaTemplate.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaTemplateDeduction.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaTemplateInstantiate.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaTemplateInstantiateDecl.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaTemplateVariadic.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./SemaType.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/./TypeLocBuilder.cpp.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Sema/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 487,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 693,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 490,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 817,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 362,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 491,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 946,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 947,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1065,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing  -O2 -DNDEBUG -std=c++14 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/lib/Sema"
+				},
+				{
+					"path" : "D:/code/llvm-project/clang/lib/Sema"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/clang/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "omp_gen::@c933b1d83b2255dffcd1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@a698e65c49ebca5ab3a1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ClangOpenCLBuiltinsImpl::@b78f6d003921181e7054"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.clangSema::@b78f6d003921181e7054",
+	"name" : "obj.clangSema",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Sema",
+		"source" : "D:/code/llvm-project/clang/lib/Sema"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52
+			]
+		},
+		{
+			"name" : "TableGen descriptions",
+			"sourceIndexes" : 
+			[
+				53
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				54,
+				55,
+				56,
+				57
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/AnalysisBasedWarnings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/CodeCompleteConsumer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/DeclSpec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/DelayedDiagnostic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/HLSLExternalSemaSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/IdentifierResolver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/JumpDiagnostics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/MultiplexExternalSemaSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/ParsedAttr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/Scope.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/ScopeInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/Sema.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaAccess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaAttr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaAvailability.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaCXXScopeSpec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaCast.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaChecking.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaCodeComplete.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaConcept.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaConsumer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaCoroutine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaCUDA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaDecl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaDeclAttr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaDeclCXX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaDeclObjC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaExceptionSpec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaExpr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaExprCXX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaExprMember.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaExprObjC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaFixItUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaInit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaLambda.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaObjCProperty.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaOpenMP.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaOverload.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaPseudoObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaRISCVVectorLookup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaStmt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaStmtAsm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaStmtAttr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaSYCL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaTemplate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaTemplateDeduction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaTemplateInstantiate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaTemplateInstantiateDecl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaTemplateVariadic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/SemaType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/TypeLocBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/OpenCLBuiltins.td",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/CoroutineStmtBuilder.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/TreeTransform.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/TypeLocBuilder.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/UsedDeclVisitor.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

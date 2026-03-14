@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tools/clang/include/clang/Sema",
+		"source" : "D:/code/llvm-project/clang/include/clang/Sema"
+	}
+}

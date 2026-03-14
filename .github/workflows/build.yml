@@ -1,0 +1,177 @@
+name: Build LLVM (clang + lld)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            preset: linux
+          - os: windows-latest
+            preset: windows
+
+    runs-on: ${{ matrix.os }}
+    name: Build on ${{ matrix.os }}
+
+    steps:
+      # ── 1. 检出代码 ──────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── 2. 安装依赖（Linux）──────────────────────────────────
+      - name: Install dependencies (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            ninja-build cmake python3 ccache \
+            libstdc++-12-dev
+
+      # ── 3. 安装 MinGW-w64 + 工具链（Windows）────────────────
+      - name: Install MinGW-w64 toolchain (Windows)
+        if: runner.os == 'Windows'
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+          install: >-
+            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-ninja
+            mingw-w64-x86_64-python
+            mingw-w64-x86_64-ccache
+
+      # ── 4. 缓存：ccache（Linux）──────────────────────────────
+      - name: Cache ccache (Linux)
+        if: runner.os == 'Linux'
+        uses: actions/cache@v4
+        with:
+          path: ~/.ccache
+          key: ccache-llvm-linux-${{ github.sha }}
+          restore-keys: |
+            ccache-llvm-linux-
+
+      # ── 5. 缓存：ccache（Windows/MSYS2）─────────────────────
+      - name: Cache ccache (Windows)
+        if: runner.os == 'Windows'
+        uses: actions/cache@v4
+        with:
+          path: C:\msys64\home\runneradmin\.ccache
+          key: ccache-llvm-windows-${{ github.sha }}
+          restore-keys: |
+            ccache-llvm-windows-
+
+      # ── 6. 缓存：CMake 构建目录 ───────────────────────────────
+      - name: Cache CMake build directory
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/llvm/build
+          key: cmake-build-${{ matrix.preset }}-${{ hashFiles('llvm/CMakeLists.txt', 'llvm/cmake/**') }}-${{ github.sha }}
+          restore-keys: |
+            cmake-build-${{ matrix.preset }}-${{ hashFiles('llvm/CMakeLists.txt', 'llvm/cmake/**') }}-
+            cmake-build-${{ matrix.preset }}-
+
+      # ── 7. CMake 配置（Linux）────────────────────────────────
+      - name: Configure CMake (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          cmake -S llvm -B llvm/build \
+            -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DLLVM_ENABLE_PROJECTS="clang;lld" \
+            -DLLVM_TARGETS_TO_BUILD="X86" \
+            -DLLVM_ENABLE_ASSERTIONS=OFF \
+            -DLLVM_BUILD_EXAMPLES=OFF \
+            -DLLVM_INCLUDE_TESTS=OFF \
+            -DLLVM_INCLUDE_BENCHMARKS=OFF \
+            -DLLVM_PARALLEL_LINK_JOBS=2 \
+            -DCMAKE_C_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
+
+      # ── 8. CMake 配置（Windows/MinGW）────────────────────────
+      - name: Configure CMake (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          cmake -S llvm -B llvm/build \
+            -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_C_COMPILER=gcc \
+            -DCMAKE_CXX_COMPILER=g++ \
+            -DLLVM_ENABLE_PROJECTS="clang;lld" \
+            -DLLVM_TARGETS_TO_BUILD="X86" \
+            -DLLVM_ENABLE_ASSERTIONS=OFF \
+            -DLLVM_BUILD_EXAMPLES=OFF \
+            -DLLVM_INCLUDE_TESTS=OFF \
+            -DLLVM_INCLUDE_BENCHMARKS=OFF \
+            -DLLVM_PARALLEL_LINK_JOBS=2 \
+            -DCMAKE_C_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
+
+      # ── 9. 编译（Linux）──────────────────────────────────────
+      - name: Build clang and lld (Linux)
+        if: runner.os == 'Linux'
+        run: cmake --build llvm/build --target clang lld -j 4
+
+      # ── 10. 编译（Windows/MinGW）─────────────────────────────
+      - name: Build clang and lld (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: cmake --build llvm/build --target clang lld -j 4
+
+      # ── 11. 安装 ─────────────────────────────────────────────
+      - name: Install (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          cmake --install llvm/build --component clang
+          cmake --install llvm/build --component lld
+
+      - name: Install (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          cmake --install llvm/build --component clang
+          cmake --install llvm/build --component lld
+
+      # ── 12. 验证产物 ──────────────────────────────────────────
+      - name: Verify binaries (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          ./llvm-install/bin/clang --version
+          ./llvm-install/bin/lld --version
+
+      - name: Verify binaries (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          ./llvm-install/bin/clang.exe --version
+          ./llvm-install/bin/lld-link.exe --version
+
+      # ── 13. 上传产物 ──────────────────────────────────────────
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: llvm-${{ matrix.preset }}
+          path: llvm-install/
+          retention-days: 7
+
+      # ── 14. 输出 ccache 统计 ──────────────────────────────────
+      - name: Print ccache stats (Linux)
+        if: runner.os == 'Linux'
+        run: ccache --show-stats
+
+      - name: Print ccache stats (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: ccache --show-stats

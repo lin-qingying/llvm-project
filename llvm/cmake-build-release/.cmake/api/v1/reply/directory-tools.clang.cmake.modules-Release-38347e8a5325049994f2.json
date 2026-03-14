@@ -1,0 +1,288 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_distribution_exports"
+		],
+		"files" : 
+		[
+			"cmake/modules/LLVMDistributionSupport.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clang-cmake-exports",
+			"destination" : "lib/cmake/clang",
+			"exportName" : "ClangTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "clangBasic::@af584f149e490d75c24c",
+					"index" : 278
+				},
+				{
+					"id" : "clangAPINotes::@dcd65739d343a3f7035a",
+					"index" : 271
+				},
+				{
+					"id" : "clangLex::@d3c561e3b3e9c375248d",
+					"index" : 295
+				},
+				{
+					"id" : "clangParse::@3da6354c36f009bcf2b2",
+					"index" : 296
+				},
+				{
+					"id" : "clangAST::@572b5cd4cfc688839176",
+					"index" : 273
+				},
+				{
+					"id" : "clangDynamicASTMatchers::@4473c7eb3c08166b90c9",
+					"index" : 284
+				},
+				{
+					"id" : "clangASTMatchers::@f183ba56cffa3f9f5544",
+					"index" : 274
+				},
+				{
+					"id" : "clangCrossTU::@f99b9500197062e1d7bd",
+					"index" : 280
+				},
+				{
+					"id" : "clangSema::@b78f6d003921181e7054",
+					"index" : 299
+				},
+				{
+					"id" : "clangCodeGen::@b53206f97688f9d71411",
+					"index" : 279
+				},
+				{
+					"id" : "clangAnalysis::@efd5146c6323474be9b8",
+					"index" : 275
+				},
+				{
+					"id" : "clangAnalysisFlowSensitive::@6d232656c9b2115d6f2b",
+					"index" : 276
+				},
+				{
+					"id" : "clangAnalysisFlowSensitiveModels::@83d248db878ff64e6b50",
+					"index" : 277
+				},
+				{
+					"id" : "clangEdit::@ad90dd66c332f8450f8c",
+					"index" : 285
+				},
+				{
+					"id" : "clangExtractAPI::@d0ca77386c5b9d6480a6",
+					"index" : 286
+				},
+				{
+					"id" : "clangRewrite::@ac59a15518014014e11a",
+					"index" : 297
+				},
+				{
+					"id" : "clangARCMigrate::@3ad637393ca8c7f17f05",
+					"index" : 272
+				},
+				{
+					"id" : "clangDriver::@7a0ba538446439a30277",
+					"index" : 283
+				},
+				{
+					"id" : "clangSerialization::@0c0ec4a36076fe2a80b8",
+					"index" : 300
+				},
+				{
+					"id" : "clangRewriteFrontend::@f1f5acd192ac9aacbb9f",
+					"index" : 298
+				},
+				{
+					"id" : "clangFrontend::@ae9a5840ad140bf270f8",
+					"index" : 288
+				},
+				{
+					"id" : "clangFrontendTool::@d60598cde9fa23229ffa",
+					"index" : 289
+				},
+				{
+					"id" : "clangToolingCore::@43e67e3a7fd26cb84d1c",
+					"index" : 307
+				},
+				{
+					"id" : "clangToolingInclusions::@33ab47f2ee526d965265",
+					"index" : 308
+				},
+				{
+					"id" : "clangToolingRefactoring::@760839e0789595001984",
+					"index" : 309
+				},
+				{
+					"id" : "clangToolingASTDiff::@95b0cb8e53a6d958ee0d",
+					"index" : 306
+				},
+				{
+					"id" : "clangToolingSyntax::@fb081a1e199beeb4e942",
+					"index" : 310
+				},
+				{
+					"id" : "clangDependencyScanning::@c6c9b4793922e41ee65a",
+					"index" : 281
+				},
+				{
+					"id" : "clangTransformer::@c74a970b26624ce5872e",
+					"index" : 311
+				},
+				{
+					"id" : "clangTooling::@00f11e79f987691e440a",
+					"index" : 305
+				},
+				{
+					"id" : "clangDirectoryWatcher::@318eb5b93d25218aad8b",
+					"index" : 282
+				},
+				{
+					"id" : "clangIndex::@38da7e434fb6ca00f24e",
+					"index" : 292
+				},
+				{
+					"id" : "clangIndexSerialization::@2473f48658435fa56590",
+					"index" : 293
+				},
+				{
+					"id" : "clangStaticAnalyzerCore::@93f8f2dc8706f9f7d1d9",
+					"index" : 302
+				},
+				{
+					"id" : "clangStaticAnalyzerCheckers::@68e682e1e37000bcd616",
+					"index" : 301
+				},
+				{
+					"id" : "clangStaticAnalyzerFrontend::@6e5c29f2d06c5840ca89",
+					"index" : 303
+				},
+				{
+					"id" : "clangFormat::@413a1e9ee6c94838d69a",
+					"index" : 287
+				},
+				{
+					"id" : "clangInterpreter::@0138db7ff276f97bf97b",
+					"index" : 294
+				},
+				{
+					"id" : "clangSupport::@639519e837bd478d75a2",
+					"index" : 304
+				},
+				{
+					"id" : "diagtool::@6fcaab4b6a6bb1fbdab7",
+					"index" : 316
+				},
+				{
+					"id" : "clang::@279b2102c71965def067",
+					"index" : 246
+				},
+				{
+					"id" : "clang-format::@0fca8876159cb0bedb6e",
+					"index" : 252
+				},
+				{
+					"id" : "clangHandleCXX::@b312087b6e1e4dc896f4",
+					"index" : 290
+				},
+				{
+					"id" : "clangHandleLLVM::@83ea382748bef609672c",
+					"index" : 291
+				},
+				{
+					"id" : "clang-offload-packager::@ce14c23a42cfb75d7ce1",
+					"index" : 262
+				},
+				{
+					"id" : "clang-offload-bundler::@75531401fb41b759697b",
+					"index" : 261
+				},
+				{
+					"id" : "clang-offload-wrapper::@28058d0cd57f9cd73dd7",
+					"index" : 263
+				},
+				{
+					"id" : "clang-scan-deps::@87ac27dbd9d87cdc996d",
+					"index" : 268
+				},
+				{
+					"id" : "clang-repl::@489f82dbfa5a759d0ce1",
+					"index" : 266
+				},
+				{
+					"id" : "clang-rename::@cc7e808ddbabd895664b",
+					"index" : 265
+				},
+				{
+					"id" : "clang-refactor::@56a1831bd073321c53a5",
+					"index" : 264
+				},
+				{
+					"id" : "clang-check::@bf3d1bc6c6881cd79c3b",
+					"index" : 248
+				},
+				{
+					"id" : "clang-extdef-mapping::@09fb085c2153ebbbefcf",
+					"index" : 251
+				},
+				{
+					"id" : "libclang::@6830e94d7f992248c5e3",
+					"index" : 832
+				}
+			],
+			"paths" : 
+			[
+				"tools/clang/cmake/modules/CMakeFiles/Export/c1119db3fad74e49663c818a9c468e27/ClangTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "clang-cmake-exports",
+			"destination" : "lib/cmake/clang",
+			"paths" : 
+			[
+				"cmake-build-release/tools/clang/cmake/modules/CMakeFiles/ClangConfig.cmake",
+				"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/cmake/modules",
+		"source" : "D:/code/llvm-project/clang/cmake/modules"
+	}
+}

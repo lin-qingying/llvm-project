@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tools/clang/tools/clang-fuzzer/dictionary",
+		"source" : "D:/code/llvm-project/clang/tools/clang-fuzzer/dictionary"
+	}
+}

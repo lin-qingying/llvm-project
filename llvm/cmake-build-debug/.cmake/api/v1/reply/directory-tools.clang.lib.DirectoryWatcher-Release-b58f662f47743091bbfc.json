@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/DirectoryWatcher/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangDirectoryWatcher",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclangDirectoryWatcher.a"
+			],
+			"targetId" : "clangDirectoryWatcher::@318eb5b93d25218aad8b",
+			"targetIndex" : 282,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/DirectoryWatcher",
+		"source" : "D:/code/llvm-project/clang/lib/DirectoryWatcher"
+	}
+}

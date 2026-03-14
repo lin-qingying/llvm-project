@@ -1,0 +1,99 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_distribution_exports"
+		],
+		"files" : 
+		[
+			"cmake/modules/LLVMDistributionSupport.cmake",
+			"D:/code/llvm-project/lld/cmake/modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "lld-cmake-exports",
+			"destination" : "lib/cmake/lld",
+			"exportName" : "LLDTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "lldCommon::@b497370945e04ff32543",
+					"index" : 840
+				},
+				{
+					"id" : "lld::@94eb31067e129d28d53f",
+					"index" : 837
+				},
+				{
+					"id" : "lldCOFF::@c1d7ec0346c5d61a7eb7",
+					"index" : 839
+				},
+				{
+					"id" : "lldELF::@fd2fe72f07c0672b5556",
+					"index" : 841
+				},
+				{
+					"id" : "lldMachO::@ec2ffeb96b31f79c7322",
+					"index" : 842
+				},
+				{
+					"id" : "lldMinGW::@18a89bbb7bbe68e72284",
+					"index" : 843
+				},
+				{
+					"id" : "lldWasm::@73a736ff05ef1cda9b5c",
+					"index" : 844
+				}
+			],
+			"paths" : 
+			[
+				"tools/lld/cmake/modules/CMakeFiles/Export/70c6e3f60dd4352f26c02371a7f717fc/LLDTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "lld-cmake-exports",
+			"destination" : "lib/cmake/lld",
+			"paths" : 
+			[
+				"cmake-build-debug/tools/lld/cmake/modules/CMakeFiles/LLDConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/lld/cmake/modules",
+		"source" : "D:/code/llvm-project/lld/cmake/modules"
+	}
+}

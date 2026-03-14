@@ -1,0 +1,1030 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Attributes.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Builtins.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./CLWarnings.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./CharInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./CodeGenOptions.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Cuda.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./DarwinSDKInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Diagnostic.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./DiagnosticIDs.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./DiagnosticOptions.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./ExpressionTraits.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./FileEntry.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./FileManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./FileSystemStatCache.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./IdentifierTable.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./LangOptions.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./LangStandards.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./MakeSupport.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Module.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./ObjCRuntime.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./OpenCLOptions.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./OpenMPKinds.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./OperatorPrecedence.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./ProfileList.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./NoSanitizeList.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./SanitizerSpecialCaseList.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Sanitizers.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Sarif.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./SourceLocation.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./SourceManager.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Stack.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./TargetID.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./TargetInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/AArch64.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/AMDGPU.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/ARC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/ARM.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/AVR.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/BPF.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/CSKY.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/DirectX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/Hexagon.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/Lanai.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/Le64.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/M68k.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/MSP430.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/Mips.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/NVPTX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/OSTargets.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/PNaCl.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/PPC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/RISCV.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/SPIR.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/Sparc.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/SystemZ.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/TCE.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/VE.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/WebAssembly.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/X86.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Targets/XCore.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./TokenKinds.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./TypeTraits.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Version.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./Warnings.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./XRayInstr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/./XRayLists.cpp.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Basic/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 487,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 693,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 490,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 817,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 362,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 491,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 946,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 947,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1065,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing  -O2 -DNDEBUG -std=c++14 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/lib/Basic"
+				},
+				{
+					"path" : "D:/code/llvm-project/clang/lib/Basic"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/clang/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "omp_gen::@c933b1d83b2255dffcd1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@a698e65c49ebca5ab3a1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.clangBasic::@af584f149e490d75c24c",
+	"name" : "obj.clangBasic",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Basic",
+		"source" : "D:/code/llvm-project/clang/lib/Basic"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				67
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				68,
+				69
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				70
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Attributes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Builtins.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/CLWarnings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/CharInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/CodeGenOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Cuda.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/DarwinSDKInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Diagnostic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/DiagnosticIDs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/DiagnosticOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/ExpressionTraits.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/FileEntry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/FileManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/FileSystemStatCache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/IdentifierTable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/LangOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/LangStandards.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/MakeSupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/ObjCRuntime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/OpenCLOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/OpenMPKinds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/OperatorPrecedence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/ProfileList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/NoSanitizeList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/SanitizerSpecialCaseList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Sanitizers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Sarif.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/SourceLocation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/SourceManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Stack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/TargetID.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/TargetInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/AArch64.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/AMDGPU.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/ARC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/ARM.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/AVR.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/BPF.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/CSKY.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/DirectX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/Hexagon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/Lanai.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/Le64.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/M68k.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/MSP430.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/Mips.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/NVPTX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/OSTargets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/PNaCl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/PPC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/RISCV.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/SPIR.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/Sparc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/SystemZ.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/TCE.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/VE.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/WebAssembly.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/X86.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets/XCore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/TokenKinds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/TypeTraits.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Version.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Warnings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/XRayInstr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/XRayLists.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/tools/clang/lib/Basic/VCSVersion.inc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/BuiltinTargetFeatures.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/Targets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/tools/clang/lib/Basic/VCSVersion.inc.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

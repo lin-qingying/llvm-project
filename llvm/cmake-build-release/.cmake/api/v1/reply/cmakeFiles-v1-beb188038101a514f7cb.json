@@ -1,0 +1,2180 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/4.1.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "cmake/modules/VersionFromVCS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/GNUInstallPackageDir.cmake"
+		},
+		{
+			"path" : "cmake/config-ix.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"path" : "cmake/modules/CheckCompilerVersion.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/modules/CheckProblematicConfigurations.cmake"
+		},
+		{
+			"path" : "cmake/modules/HandleLLVMStdlib.cmake"
+		},
+		{
+			"path" : "cmake/modules/DetermineGCCCompatible.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMCheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"path" : "cmake/modules/FindLibpfm.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/modules/Findzstd.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindLibXml2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindBacktrace.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/modules/CheckAtomic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"path" : "cmake/modules/GetHostTriple.cmake"
+		},
+		{
+			"path" : "cmake/modules/FindOCaml.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/modules/AddOCaml.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"path" : "cmake/modules/HandleLLVMOptions.cmake"
+		},
+		{
+			"path" : "cmake/modules/CheckCompilerVersion.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/modules/CheckProblematicConfigurations.cmake"
+		},
+		{
+			"path" : "cmake/modules/HandleLLVMStdlib.cmake"
+		},
+		{
+			"path" : "cmake/modules/DetermineGCCCompatible.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMProcessSources.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/AddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "include/llvm/Config/AsmPrinters.def.in"
+		},
+		{
+			"path" : "include/llvm/Config/AsmParsers.def.in"
+		},
+		{
+			"path" : "include/llvm/Config/Disassemblers.def.in"
+		},
+		{
+			"path" : "include/llvm/Config/Targets.def.in"
+		},
+		{
+			"path" : "include/llvm/Config/TargetMCAs.def.in"
+		},
+		{
+			"path" : "include/llvm/Config/config.h.cmake"
+		},
+		{
+			"path" : "include/llvm/Config/llvm-config.h.cmake"
+		},
+		{
+			"path" : "include/llvm/Config/abi-breaking.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "llvm.spec.in"
+		},
+		{
+			"path" : "cmake/modules/AddLLVM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMDistributionSupport.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMProcessSources.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/AddFileDependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVM-Config.cmake"
+		},
+		{
+			"path" : "cmake/modules/DetermineGCCCompatible.cmake"
+		},
+		{
+			"path" : "cmake/modules/TableGen.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMDistributionSupport.cmake"
+		},
+		{
+			"path" : "cmake/modules/CoverageReport.cmake"
+		},
+		{
+			"path" : "lib/Demangle/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Support/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/GetLibraryName.cmake"
+		},
+		{
+			"path" : "lib/Support/BLAKE3/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/TableGen/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/TableGen/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/TableGen/GlobalISel/CMakeLists.txt"
+		},
+		{
+			"path" : "include/llvm/CMakeLists.txt"
+		},
+		{
+			"path" : "include/llvm/module.modulemap.build"
+		},
+		{
+			"path" : "include/llvm/IR/CMakeLists.txt"
+		},
+		{
+			"path" : "include/llvm/Support/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "include/llvm/Frontend/CMakeLists.txt"
+		},
+		{
+			"path" : "include/llvm/Frontend/OpenACC/CMakeLists.txt"
+		},
+		{
+			"path" : "include/llvm/Frontend/OpenMP/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/LLVM-Build.cmake"
+		},
+		{
+			"path" : "lib/IR/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/FuzzMutate/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/FileCheck/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/InterfaceStub/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/IRReader/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CodeGen/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CodeGen/SelectionDAG/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CodeGen/AsmPrinter/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CodeGen/MIRParser/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/CodeGen/GlobalISel/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/BinaryFormat/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Bitcode/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Bitcode/Reader/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Bitcode/Writer/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Bitstream/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Bitstream/Reader/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DWARFLinker/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Extensions/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Frontend/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Frontend/OpenACC/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Frontend/OpenMP/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/Utils/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/Instrumentation/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/AggressiveInstCombine/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/InstCombine/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/Scalar/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/IPO/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/Vectorize/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/Hello/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/ObjCARC/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/Coroutines/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Transforms/CFGuard/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Linker/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Analysis/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/LTO/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/MC/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/MC/MCParser/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/MC/MCDisassembler/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/MCA/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ObjCopy/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Object/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ObjectYAML/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Option/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Remarks/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Debuginfod/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/DWARF/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/GSYM/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/MSF/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/CodeView/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/PDB/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DebugInfo/Symbolize/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/DWP/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/Interpreter/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/JITLink/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/MCJIT/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/Orc/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/Orc/Shared/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/Orc/TargetProcess/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ExecutionEngine/RuntimeDyld/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/X86/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/X86/AsmParser/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/X86/Disassembler/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/X86/MCA/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/X86/MCTargetDesc/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Target/X86/TargetInfo/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/AsmParser/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/LineEditor/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ProfileData/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ProfileData/Coverage/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/Passes/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/TextAPI/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ToolDrivers/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ToolDrivers/llvm-dlltool/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ToolDrivers/llvm-lib/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/XRay/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/WindowsDriver/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/WindowsManifest/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/GetLibraryName.cmake"
+		},
+		{
+			"path" : "utils/FileCheck/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/PerfectShuffle/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/count/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/not/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/UnicodeData/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/yaml-bench/CMakeLists.txt"
+		},
+		{
+			"path" : "projects/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/lto/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/gold/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-ar/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/llvm-driver-template.cpp.in"
+		},
+		{
+			"path" : "tools/llvm-config/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-config/BuildVariables.inc.in"
+		},
+		{
+			"path" : "tools/llvm-lto/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-profdata/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Basic/Version.inc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/cmake/modules/AddClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Config/config.h.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/utils/TableGen/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/AST/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Basic/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Driver/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Parse/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Sema/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Serialization/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/StaticAnalyzer/Checkers/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/include/clang/Tooling/Syntax/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Headers/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Basic/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/APINotes/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Lex/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Parse/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/AST/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/ASTMatchers/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/ASTMatchers/Dynamic/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/CrossTU/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Sema/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Analysis/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Analysis/plugins/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Analysis/FlowSensitive/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Analysis/FlowSensitive/Models/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Edit/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/ExtractAPI/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Rewrite/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/ARCMigrate/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Driver/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Serialization/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Frontend/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Frontend/Rewrite/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/FrontendTool/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Core/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Inclusions/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Refactoring/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/ASTDiff/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/DumpTool/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Syntax/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/DependencyScanning/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Transformer/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/DirectoryWatcher/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Index/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/IndexSerialization/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Core/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Checkers/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/StaticAnalyzer/Frontend/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Format/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Interpreter/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/lib/Support/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/diagtool/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/driver/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/llvm-driver-template.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/apinotes-test/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-diff/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-format/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-format-vs/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-fuzzer/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-fuzzer/handle-cxx/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-fuzzer/handle-llvm/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-fuzzer/dictionary/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-import-test/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-nvlink-wrapper/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-linker-wrapper/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-offload-packager/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-offload-bundler/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-offload-wrapper/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-scan-deps/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-repl/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/c-index-test/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-rename/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-refactor/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/arcmt-test/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/c-arcmt-test/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-check/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/clang-extdef-mapping/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/scan-build/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/scan-build-py/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/scan-view/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/libclang/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/tools/amdgpu-arch/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/runtime/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/ExternalProject.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/examples/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/docs/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/cmake/modules/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/GNUInstallPackageDir.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/ExtendPath.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/FindPrefixFromConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/cmake/modules/ClangConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/cmake/modules/ClangConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/clang/utils/hmaptool/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/include/lld/Common/Version.inc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/cmake/modules/AddLLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/Common/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/tools/lld/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/docs/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/COFF/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/ELF/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/MachO/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/MinGW/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/wasm/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/cmake/modules/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/GNUInstallPackageDir.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/ExtendPath.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/FindPrefixFromConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/cmake/modules/LLDConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/lld/cmake/modules/LLDConfig.cmake.in"
+		},
+		{
+			"path" : "tools/bugpoint/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/bugpoint-passes/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/dsymutil/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/llvm-driver-template.cpp.in"
+		},
+		{
+			"path" : "tools/dxil-dis/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llc/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/lli/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/lli/ChildTarget/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-as/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-as-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-bcanalyzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-c-test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cat/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cfi-verify/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cfi-verify/lib/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cov/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cvtres/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cxxdump/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-cxxfilt/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/llvm-driver-template.cpp.in"
+		},
+		{
+			"path" : "tools/llvm-cxxmap/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-debuginfod/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-debuginfod-find/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-diff/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-diff/lib/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dis/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dis-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dlang-demangle-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dwarfdump/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dwarfdump/fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dwarfutil/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-dwp/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-exegesis/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-exegesis/lib/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-exegesis/lib/X86/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-extract/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-go/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-gsymutil/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-ifs/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-isel-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-itanium-demangle-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-jitlink/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-jitlink/llvm-jitlink-executor/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-libtool-darwin/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-link/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-lipo/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-lto2/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-mc/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-mc-assemble-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-mc-disassemble-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-mca/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-microsoft-demangle-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-ml/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-modextract/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-mt/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-nm/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-objcopy/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/llvm-driver-template.cpp.in"
+		},
+		{
+			"path" : "tools/llvm-objdump/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-opt-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-opt-report/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-pdbutil/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-profgen/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-rc/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-readobj/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-reduce/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-remark-size-diff/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-rtdyld/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-rust-demangle-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-sim/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-size/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-special-case-list-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-split/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-stress/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-strings/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-symbolizer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-tapi-diff/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-tli-checker/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-undname/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-xray/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-yaml-numeric-parser-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/llvm-yaml-parser-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/obj2yaml/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/opt/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/opt-viewer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/remarks-shlib/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/sancov/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/sanstats/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/split-file/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/verify-uselistorder/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/vfabi-demangle-fuzzer/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/xcode-toolchain/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/yaml2obj/CMakeLists.txt"
+		},
+		{
+			"path" : "runtimes/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/LLVMExternalProjectUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/lin17/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/BrainF/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Fibonacci/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/HowToUseJIT/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/HowToUseLLJIT/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/IRTransforms/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/BuildingAJIT/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/BuildingAJIT/Chapter1/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/BuildingAJIT/Chapter2/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/BuildingAJIT/Chapter3/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/BuildingAJIT/Chapter4/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter2/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter3/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter4/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter5/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter6/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter7/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter8/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Kaleidoscope/Chapter9/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/ModuleMaker/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITDumpObjects/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITRemovableCode/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithCustomObjectLinkingLayer/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithExecutorProcessControl/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithGDBRegistrationListener/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithInitializers/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithLazyReexports/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithObjectCache/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithObjectLinkingLayerPlugin/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithOptimizingIRTransform/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/LLJITWithThinLTOSummaries/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsAddObjectFile/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsBasicUsage/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsDumpObjects/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsIRTransforms/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsReflectProcessSymbols/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsRemovableCode/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsLazy/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/OrcV2Examples/OrcV2CBindingsVeryLazy/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/SpeculativeJIT/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/Bye/CMakeLists.txt"
+		},
+		{
+			"path" : "docs/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/modules/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/ExtendPath.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMDistributionSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/code/llvm-project/cmake/Modules/FindPrefixFromConfig.cmake"
+		},
+		{
+			"path" : "cmake/modules/LLVMConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/modules/LLVMConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/modules/LLVMConfigVersion.cmake.in"
+		},
+		{
+			"path" : "utils/llvm-lit/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/llvm-lit/llvm-lit.in"
+		},
+		{
+			"path" : "utils/llvm-locstats/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/code/llvm-project/llvm/cmake-build-release",
+		"source" : "D:/code/llvm-project/llvm"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

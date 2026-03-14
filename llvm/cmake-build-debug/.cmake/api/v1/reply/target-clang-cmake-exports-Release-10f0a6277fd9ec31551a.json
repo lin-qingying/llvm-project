@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "clang-cmake-exports::@fa4c300342176a458f32",
+	"name" : "clang-cmake-exports",
+	"paths" : 
+	{
+		"build" : "tools/clang/cmake/modules",
+		"source" : "D:/code/llvm-project/clang/cmake/modules"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

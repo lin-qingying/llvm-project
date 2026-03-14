@@ -1,0 +1,476 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./AllTUsExecution.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./ArgumentsAdjusters.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./CommonOptionsParser.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./CompilationDatabase.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./Execution.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./ExpandResponseFilesCompilationDatabase.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./FileMatchTrie.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./FixIt.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./GuessTargetAndModeCompilationDatabase.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./InterpolatingCompilationDatabase.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./JSONCompilationDatabase.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./Refactoring.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./RefactoringCallbacks.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./StandaloneExecution.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./NodeIntrospection.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/Tooling/CMakeFiles/obj.clangTooling.dir/./Tooling.cpp.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"add_dependencies",
+			"add_custom_command",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Tooling/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 487,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 693,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 490,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 817,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 362,
+				"parent" : 11
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 491,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 946,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 947,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 1065,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing  -O2 -DNDEBUG -std=c++14 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/lib/Tooling"
+				},
+				{
+					"path" : "D:/code/llvm-project/clang/lib/Tooling"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/clang/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/tools/clang/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-release/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/code/llvm-project/llvm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				16
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "omp_gen::@c933b1d83b2255dffcd1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@a698e65c49ebca5ab3a1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ClangDriverOptions::@c5f28d7a065278720772"
+		},
+		{
+			"id" : "clang-resource-headers::@85dbf821aae81a241c4c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "clang-ast-dump::@1f1b2745dcefcf4f98e2"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.clangTooling::@00f11e79f987691e440a",
+	"name" : "obj.clangTooling",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Tooling",
+		"source" : "D:/code/llvm-project/clang/lib/Tooling"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				16
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/AllTUsExecution.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/ArgumentsAdjusters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/CommonOptionsParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/CompilationDatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Execution.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/ExpandResponseFilesCompilationDatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/FileMatchTrie.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/FixIt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/GuessTargetAndModeCompilationDatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/InterpolatingCompilationDatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/JSONCompilationDatabase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Refactoring.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/RefactoringCallbacks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/StandaloneExecution.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/NodeIntrospection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/tools/clang/include/clang/Tooling/NodeIntrospection.inc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/Tooling/Tooling.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/tools/clang/include/clang/Tooling/NodeIntrospection.inc.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/tools/clang/lib/Tooling/ASTNodeAPI.json.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_lld_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/lld/cmake/modules/AddLLD.cmake",
+			"D:/code/llvm-project/lld/ELF/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "lldELF",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/liblldELF.a"
+			],
+			"targetId" : "lldELF::@fd2fe72f07c0672b5556",
+			"targetIndex" : 841,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/lld/ELF",
+		"source" : "D:/code/llvm-project/lld/ELF"
+	}
+}

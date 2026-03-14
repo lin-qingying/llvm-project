@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/tools/clang-linker-wrapper/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/clang-linker-wrapper.exe"
+			],
+			"targetId" : "clang-linker-wrapper::@e0ac3439a10bcacef7b5",
+			"targetIndex" : 258,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/tools/clang-linker-wrapper",
+		"source" : "D:/code/llvm-project/clang/tools/clang-linker-wrapper"
+	}
+}

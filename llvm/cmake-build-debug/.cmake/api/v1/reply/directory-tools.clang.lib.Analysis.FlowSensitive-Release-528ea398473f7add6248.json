@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_clang_library"
+		],
+		"files" : 
+		[
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/Analysis/FlowSensitive/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "clangAnalysisFlowSensitive",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libclangAnalysisFlowSensitive.a"
+			],
+			"targetId" : "clangAnalysisFlowSensitive::@6d232656c9b2115d6f2b",
+			"targetIndex" : 276,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/Analysis/FlowSensitive",
+		"source" : "D:/code/llvm-project/clang/lib/Analysis/FlowSensitive"
+	}
+}

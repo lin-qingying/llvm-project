@@ -1,0 +1,1074 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./BackendUtil.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGAtomic.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGBlocks.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGBuiltin.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCUDANV.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCUDARuntime.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCXX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCXXABI.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCall.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGClass.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCleanup.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGCoroutine.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGDebugInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGDecl.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGDeclCXX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGException.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGExpr.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGExprAgg.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGExprCXX.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGExprComplex.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGExprConstant.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGExprScalar.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGGPUBuiltin.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGHLSLRuntime.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGLoopInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGNonTrivialStruct.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGObjC.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGObjCGNU.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGObjCMac.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGObjCRuntime.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGOpenCLRuntime.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGOpenMPRuntime.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGOpenMPRuntimeGPU.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGRecordLayoutBuilder.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGStmt.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGStmtOpenMP.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGVTT.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CGVTables.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenABITypes.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenAction.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenFunction.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenModule.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenPGO.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenTBAA.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CodeGenTypes.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./ConstantInitBuilder.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./CoverageMappingGen.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./ItaniumCXXABI.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./MacroPPCallbacks.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./MicrosoftCXXABI.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./ModuleBuilder.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./ObjectFilePCHContainerOperations.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./PatternInit.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./SanitizerMetadata.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./SwiftCallingConv.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./TargetInfo.cpp.obj"
+		},
+		{
+			"path" : "tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/./VarBypassDetector.cpp.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_clang_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/modules/AddLLVM.cmake",
+			"D:/code/llvm-project/clang/cmake/modules/AddClang.cmake",
+			"D:/code/llvm-project/clang/lib/CodeGen/CMakeLists.txt",
+			"cmake/modules/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"D:/code/llvm-project/clang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 487,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 693,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 490,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 817,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 362,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 491,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 946,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 947,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 948,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 446,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 1065,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wa,-mbig-obj -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wmisleading-indentation -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing  -O2 -DNDEBUG -std=c++14 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -fno-exceptions -fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "D:/code/llvm-project/llvm/cmake-build-debug/tools/clang/lib/CodeGen"
+				},
+				{
+					"path" : "D:/code/llvm-project/clang/lib/CodeGen"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/clang/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-debug/tools/clang/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/code/llvm-project/llvm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "intrinsics_gen::@6eda0283a7d1115d7bbd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "clang-tablegen-targets::@a698e65c49ebca5ab3a1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.clangCodeGen::@b53206f97688f9d71411",
+	"name" : "obj.clangCodeGen",
+	"paths" : 
+	{
+		"build" : "tools/clang/lib/CodeGen",
+		"source" : "D:/code/llvm-project/clang/lib/CodeGen"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/BackendUtil.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGAtomic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGBlocks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGBuiltin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCUDANV.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCUDARuntime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCXX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCXXABI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCall.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGClass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCleanup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCoroutine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGDebugInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGDecl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGDeclCXX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGException.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGExpr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGExprAgg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGExprCXX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGExprComplex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGExprConstant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGExprScalar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGGPUBuiltin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGHLSLRuntime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGLoopInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGNonTrivialStruct.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGObjC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGObjCGNU.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGObjCMac.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGObjCRuntime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGOpenCLRuntime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGOpenMPRuntime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGOpenMPRuntimeGPU.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGRecordLayoutBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGStmt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGStmtOpenMP.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGVTT.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGVTables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenABITypes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenFunction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenPGO.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenTBAA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenTypes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/ConstantInitBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CoverageMappingGen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/ItaniumCXXABI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/MacroPPCallbacks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/MicrosoftCXXABI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/ModuleBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/ObjectFilePCHContainerOperations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/PatternInit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/SanitizerMetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/SwiftCallingConv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/TargetInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/VarBypassDetector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/ABIInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/Address.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGBlocks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGBuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCUDARuntime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCXXABI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCall.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGCleanup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGDebugInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGHLSLRuntime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGLoopInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGObjCRuntime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGOpenCLRuntime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGOpenMPRuntime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGOpenMPRuntimeGPU.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGRecordLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGVTables.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CGValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenFunction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenModule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenPGO.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenTBAA.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenTypeCache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CodeGenTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/ConstantEmitter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/CoverageMappingGen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/EHScopeStack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/MacroPPCallbacks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/PatternInit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/SanitizerMetadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/TargetInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "D:/code/llvm-project/clang/lib/CodeGen/VarBypassDetector.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
