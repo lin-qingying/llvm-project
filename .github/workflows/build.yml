@@ -36,49 +36,21 @@ jobs:
             ninja-build cmake python3 ccache \
             libstdc++-12-dev
 
-      # ── 3. 安装 MinGW-w64 + 工具链（Windows）────────────────
-      - name: Install MinGW-w64 toolchain (Windows)
+      # ── 3. 安装 MinGW-w64 + Clang 工具链（Windows）──────────
+      - name: Install MinGW-w64 clang toolchain (Windows)
         if: runner.os == 'Windows'
         uses: msys2/setup-msys2@v2
         with:
           msystem: MINGW64
           update: true
           install: >-
-            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-clang
             mingw-w64-x86_64-cmake
             mingw-w64-x86_64-ninja
             mingw-w64-x86_64-python
             mingw-w64-x86_64-ccache
 
-      # ── 4. 打补丁：修复 SmallVector 兼容 GCC 14/15 ──────────
-      # LLVM 15 的 SmallVector 使用了 GCC 15 中移除的模板继承语法
-      # 此补丁将 using SuperClass::xxx 改为直接 using 基类成员
-      - name: Patch SmallVector for GCC 14/15 compatibility (Windows)
-        if: runner.os == 'Windows'
-        shell: msys2 {0}
-        run: |
-          SMALL_VECTOR="llvm/include/llvm/ADT/SmallVector.h"
-
-          # 检查 GCC 版本
-          GCC_VER=$(gcc -dumpversion | cut -d. -f1)
-          echo "GCC major version: $GCC_VER"
-
-          if [ "$GCC_VER" -ge 14 ]; then
-            echo "Applying SmallVector patch for GCC $GCC_VER..."
-
-            # 在 SmallVectorTemplateBase 中补充缺失的成员声明
-            # 将 set_size 从 protected 改为 public 可见，或在子类中重新声明
-            sed -i 's/using SuperClass::set_size;/\/\/ using SuperClass::set_size; \/\/ patched for GCC 14+\n  using SmallVectorTemplateCommon<T>::set_size;/' \
-              "$SMALL_VECTOR"
-
-            echo "Patch applied."
-          else
-            echo "GCC $GCC_VER, no patch needed."
-          fi
-
-          gcc --version
-
-      # ── 5. 缓存：ccache（Linux）──────────────────────────────
+      # ── 4. 缓存：ccache（Linux）──────────────────────────────
       - name: Cache ccache (Linux)
         if: runner.os == 'Linux'
         uses: actions/cache@v4
@@ -88,7 +60,7 @@ jobs:
           restore-keys: |
             ccache-llvm-linux-
 
-      # ── 6. 缓存：ccache（Windows）────────────────────────────
+      # ── 5. 缓存：ccache（Windows）────────────────────────────
       - name: Cache ccache (Windows)
         if: runner.os == 'Windows'
         uses: actions/cache@v4
@@ -98,7 +70,7 @@ jobs:
           restore-keys: |
             ccache-llvm-windows-
 
-      # ── 7. 缓存：CMake 构建目录 ───────────────────────────────
+      # ── 6. 缓存：CMake 构建目录 ───────────────────────────────
       - name: Cache CMake build directory
         uses: actions/cache@v4
         with:
@@ -108,7 +80,7 @@ jobs:
             cmake-build-${{ matrix.preset }}-${{ hashFiles('llvm/CMakeLists.txt', 'llvm/cmake/**') }}-
             cmake-build-${{ matrix.preset }}-
 
-      # ── 8. CMake 配置（Linux）────────────────────────────────
+      # ── 7. CMake 配置（Linux）────────────────────────────────
       - name: Configure CMake (Linux)
         if: runner.os == 'Linux'
         run: |
@@ -128,7 +100,7 @@ jobs:
             -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
             -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
 
-      # ── 9. CMake 配置（Windows/MinGW）────────────────────────
+      # ── 8. CMake 配置（Windows/MinGW + Clang）────────────────
       - name: Configure CMake (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
@@ -136,8 +108,8 @@ jobs:
           cmake -S llvm -B llvm/build \
             -G Ninja \
             -DCMAKE_BUILD_TYPE=Release \
-            -DCMAKE_C_COMPILER=gcc \
-            -DCMAKE_CXX_COMPILER=g++ \
+            -DCMAKE_C_COMPILER=clang \
+            -DCMAKE_CXX_COMPILER=clang++ \
             -DLLVM_ENABLE_PROJECTS="clang;lld" \
             -DLLVM_TARGETS_TO_BUILD="X86" \
             -DLLVM_ENABLE_ASSERTIONS=OFF \
@@ -149,25 +121,25 @@ jobs:
             -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
             -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
 
-      # ── 10. 编译（Linux）─────────────────────────────────────
+      # ── 9. 编译（Linux）─────────────────────────────────────
       - name: Build clang and lld (Linux)
         if: runner.os == 'Linux'
         run: cmake --build llvm/build --target clang lld -j 4
 
-      # ── 11. 编译（Windows）───────────────────────────────────
+      # ── 10. 编译（Windows）──────────────────────────────────
       - name: Build clang and lld (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
         run: cmake --build llvm/build --target clang lld -j 4
 
-      # ── 12. 安装（Linux）─────────────────────────────────────
+      # ── 11. 安装（Linux）────────────────────────────────────
       - name: Install (Linux)
         if: runner.os == 'Linux'
         run: |
           cmake --install llvm/build --component clang
           cmake --install llvm/build --component lld
 
-      # ── 13. 安装（Windows）───────────────────────────────────
+      # ── 12. 安装（Windows）──────────────────────────────────
       - name: Install (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
@@ -175,14 +147,14 @@ jobs:
           cmake --install llvm/build --component clang
           cmake --install llvm/build --component lld
 
-      # ── 14. 验证产物（Linux）─────────────────────────────────
+      # ── 13. 验证产物（Linux）────────────────────────────────
       - name: Verify binaries (Linux)
         if: runner.os == 'Linux'
         run: |
           ./llvm-install/bin/clang --version
           ./llvm-install/bin/lld --version
 
-      # ── 15. 验证产物（Windows）───────────────────────────────
+      # ── 14. 验证产物（Windows）──────────────────────────────
       - name: Verify binaries (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
@@ -190,7 +162,7 @@ jobs:
           ./llvm-install/bin/clang.exe --version
           ./llvm-install/bin/lld-link.exe --version
 
-      # ── 16. 上传产物 ──────────────────────────────────────────
+      # ── 15. 上传产物 ─────────────────────────────────────────
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -198,7 +170,7 @@ jobs:
           path: llvm-install/
           retention-days: 7
 
-      # ── 17. 输出 ccache 统计 ──────────────────────────────────
+      # ── 16. 输出 ccache 统计 ─────────────────────────────────
       - name: Print ccache stats (Linux)
         if: runner.os == 'Linux'
         run: ccache --show-stats
