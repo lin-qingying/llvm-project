@@ -44,13 +44,27 @@ jobs:
           msystem: MINGW64
           update: true
           install: >-
-            mingw-w64-x86_64-gcc
             mingw-w64-x86_64-cmake
             mingw-w64-x86_64-ninja
             mingw-w64-x86_64-python
             mingw-w64-x86_64-ccache
 
-      # ── 4. 缓存：ccache（Linux）──────────────────────────────
+      # ── 4. 降级到 GCC 13（Windows，兼容 LLVM 15）────────────
+      - name: Downgrade to GCC 13 (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          curl -LO "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-13.3.0-2-any.pkg.tar.zst"
+          curl -LO "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-libs-13.3.0-2-any.pkg.tar.zst"
+          curl -LO "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libgcc-13.3.0-2-any.pkg.tar.zst"
+          pacman -U --noconfirm \
+            mingw-w64-x86_64-gcc-13.3.0-2-any.pkg.tar.zst \
+            mingw-w64-x86_64-gcc-libs-13.3.0-2-any.pkg.tar.zst \
+            mingw-w64-x86_64-libgcc-13.3.0-2-any.pkg.tar.zst
+          echo "IgnorePkg = mingw-w64-x86_64-gcc mingw-w64-x86_64-gcc-libs mingw-w64-x86_64-libgcc" >> /etc/pacman.conf
+          gcc --version
+
+      # ── 5. 缓存：ccache（Linux）──────────────────────────────
       - name: Cache ccache (Linux)
         if: runner.os == 'Linux'
         uses: actions/cache@v4
@@ -60,7 +74,7 @@ jobs:
           restore-keys: |
             ccache-llvm-linux-
 
-      # ── 5. 缓存：ccache（Windows/MSYS2）─────────────────────
+      # ── 6. 缓存：ccache（Windows）────────────────────────────
       - name: Cache ccache (Windows)
         if: runner.os == 'Windows'
         uses: actions/cache@v4
@@ -70,7 +84,7 @@ jobs:
           restore-keys: |
             ccache-llvm-windows-
 
-      # ── 6. 缓存：CMake 构建目录 ───────────────────────────────
+      # ── 7. 缓存：CMake 构建目录 ───────────────────────────────
       - name: Cache CMake build directory
         uses: actions/cache@v4
         with:
@@ -80,13 +94,15 @@ jobs:
             cmake-build-${{ matrix.preset }}-${{ hashFiles('llvm/CMakeLists.txt', 'llvm/cmake/**') }}-
             cmake-build-${{ matrix.preset }}-
 
-      # ── 7. CMake 配置（Linux）────────────────────────────────
+      # ── 8. CMake 配置（Linux）────────────────────────────────
       - name: Configure CMake (Linux)
         if: runner.os == 'Linux'
         run: |
           cmake -S llvm -B llvm/build \
             -G Ninja \
             -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_C_COMPILER=gcc \
+            -DCMAKE_CXX_COMPILER=g++ \
             -DLLVM_ENABLE_PROJECTS="clang;lld" \
             -DLLVM_TARGETS_TO_BUILD="X86" \
             -DLLVM_ENABLE_ASSERTIONS=OFF \
@@ -98,7 +114,7 @@ jobs:
             -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
             -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
 
-      # ── 8. CMake 配置（Windows/MinGW）────────────────────────
+      # ── 9. CMake 配置（Windows）──────────────────────────────
       - name: Configure CMake (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
@@ -119,24 +135,25 @@ jobs:
             -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
             -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
 
-      # ── 9. 编译（Linux）──────────────────────────────────────
+      # ── 10. 编译（Linux）─────────────────────────────────────
       - name: Build clang and lld (Linux)
         if: runner.os == 'Linux'
         run: cmake --build llvm/build --target clang lld -j 4
 
-      # ── 10. 编译（Windows/MinGW）─────────────────────────────
+      # ── 11. 编译（Windows）───────────────────────────────────
       - name: Build clang and lld (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
         run: cmake --build llvm/build --target clang lld -j 4
 
-      # ── 11. 安装 ─────────────────────────────────────────────
+      # ── 12. 安装（Linux）─────────────────────────────────────
       - name: Install (Linux)
         if: runner.os == 'Linux'
         run: |
           cmake --install llvm/build --component clang
           cmake --install llvm/build --component lld
 
+      # ── 13. 安装（Windows）───────────────────────────────────
       - name: Install (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
@@ -144,13 +161,14 @@ jobs:
           cmake --install llvm/build --component clang
           cmake --install llvm/build --component lld
 
-      # ── 12. 验证产物 ──────────────────────────────────────────
+      # ── 14. 验证产物（Linux）─────────────────────────────────
       - name: Verify binaries (Linux)
         if: runner.os == 'Linux'
         run: |
           ./llvm-install/bin/clang --version
           ./llvm-install/bin/lld --version
 
+      # ── 15. 验证产物（Windows）───────────────────────────────
       - name: Verify binaries (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
@@ -158,7 +176,7 @@ jobs:
           ./llvm-install/bin/clang.exe --version
           ./llvm-install/bin/lld-link.exe --version
 
-      # ── 13. 上传产物 ──────────────────────────────────────────
+      # ── 16. 上传产物 ──────────────────────────────────────────
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -166,7 +184,7 @@ jobs:
           path: llvm-install/
           retention-days: 7
 
-      # ── 14. 输出 ccache 统计 ──────────────────────────────────
+      # ── 17. 输出 ccache 统计 ──────────────────────────────────
       - name: Print ccache stats (Linux)
         if: runner.os == 'Linux'
         run: ccache --show-stats
