@@ -159,8 +159,33 @@ jobs:
         if: runner.os == 'Windows'
         shell: msys2 {0}
         run: |
-          ./llvm-install/bin/clang.exe --version
-          ./llvm-install/bin/lld-link.exe --version
+          set -euo pipefail
+
+          CLANG_BIN=""
+          for candidate in ./llvm-install/bin/clang ./llvm-install/bin/clang.exe ./llvm-install/bin/clang-15.exe ./llvm-install/bin/clang-15; do
+            if [ -x "$candidate" ]; then
+              CLANG_BIN="$candidate"
+              break
+            fi
+          done
+
+          LLD_BIN=""
+          for candidate in ./llvm-install/bin/lld-link ./llvm-install/bin/lld-link.exe ./llvm-install/bin/ld.lld ./llvm-install/bin/ld.lld.exe; do
+            if [ -x "$candidate" ]; then
+              LLD_BIN="$candidate"
+              break
+            fi
+          done
+
+          if [ -z "$CLANG_BIN" ] || [ -z "$LLD_BIN" ]; then
+            echo "Installed binaries in llvm-install/bin:"
+            ls -la ./llvm-install/bin || true
+            echo "Failed to find required binaries. CLANG_BIN='$CLANG_BIN' LLD_BIN='$LLD_BIN'"
+            exit 1
+          fi
+
+          "$CLANG_BIN" --version
+          "$LLD_BIN" --version
 
       # ── 15. 上传产物 ─────────────────────────────────────────
       - name: Upload artifacts
