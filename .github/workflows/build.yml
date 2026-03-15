@@ -152,7 +152,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           ./llvm-install/bin/clang --version
-          ./llvm-install/bin/lld --version
+          ./llvm-install/bin/ld.lld --version
 
       # ── 14. 验证产物（Windows）──────────────────────────────
       - name: Verify binaries (Windows)
