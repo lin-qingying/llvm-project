@@ -139,7 +139,7 @@ class X86InstrInfo final : public X86GenInstrInfo {
   X86Subtarget &Subtarget;
   const X86RegisterInfo RI;
 
-  virtual void anchor();
+  void anchor();
 
   bool AnalyzeBranchImpl(MachineBasicBlock &MBB, MachineBasicBlock *&TBB,
                          MachineBasicBlock *&FBB,
