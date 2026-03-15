@@ -130,7 +130,7 @@ jobs:
       - name: Build clang and lld (Windows)
         if: runner.os == 'Windows'
         shell: msys2 {0}
-        run: cmake --build llvm/build --target clang lld -j 4
+        run: cmake --build llvm/build --target clang lld
 
       # ── 11. 安装（Linux）────────────────────────────────────
       - name: Install (Linux)
