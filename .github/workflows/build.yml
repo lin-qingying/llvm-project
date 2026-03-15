@@ -187,7 +187,48 @@ jobs:
           "$CLANG_BIN" --version
           "$LLD_BIN" --version
 
-      # ── 15. 上传产物 ─────────────────────────────────────────
+      # ── 15. 收集开发产物（Linux）────────────────────────────
+      - name: Collect dev artifacts (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          set -euo pipefail
+          mkdir -p llvm-install/include llvm-install/lib
+          cp -a llvm/include/. llvm-install/include/
+          if [ -d llvm/build/include ]; then
+            cp -a llvm/build/include/. llvm-install/include/
+          fi
+          find llvm/build/lib -type f \( -name '*.a' -o -name '*.lib' \) -exec cp -a {} llvm-install/lib/ \;
+
+      # ── 16. 收集开发产物（Windows）───────────────────────────
+      - name: Collect dev artifacts (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          set -euo pipefail
+          mkdir -p llvm-install/include llvm-install/lib
+          cp -a llvm/include/. llvm-install/include/
+          if [ -d llvm/build/include ]; then
+            cp -a llvm/build/include/. llvm-install/include/
+          fi
+          find llvm/build/lib -type f \( -name '*.a' -o -name '*.lib' \) -exec cp -a {} llvm-install/lib/ \;
+
+      # ── 17. 验证开发产物（Linux）────────────────────────────
+      - name: Verify dev artifacts (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          test -d ./llvm-install/include
+          find ./llvm-install/lib -maxdepth 1 -type f \( -name '*.a' -o -name '*.lib' \) | head -n 1 | grep -q .
+
+      # ── 18. 验证开发产物（Windows）───────────────────────────
+      - name: Verify dev artifacts (Windows)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          set -euo pipefail
+          test -d ./llvm-install/include
+          find ./llvm-install/lib -maxdepth 1 -type f \( -name '*.a' -o -name '*.lib' \) | head -n 1 | grep -q .
+
+      # ── 19. 上传产物 ─────────────────────────────────────────
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -195,7 +236,7 @@ jobs:
           path: llvm-install/
           retention-days: 7
 
-      # ── 16. 输出 ccache 统计 ─────────────────────────────────
+      # ── 20. 输出 ccache 统计 ─────────────────────────────────
       - name: Print ccache stats (Linux)
         if: runner.os == 'Linux'
         run: ccache --show-stats
