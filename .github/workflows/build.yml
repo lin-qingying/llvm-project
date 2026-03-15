@@ -119,7 +119,7 @@ jobs:
             -DLLVM_PARALLEL_LINK_JOBS=2 \
             -DCMAKE_C_COMPILER_LAUNCHER=ccache \
             -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
-            -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/llvm-install
+            -DCMAKE_INSTALL_PREFIX=llvm-install
 
       # ── 9. 编译（Linux）─────────────────────────────────────
       - name: Build clang and lld (Linux)
